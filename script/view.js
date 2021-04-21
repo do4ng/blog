@@ -19,10 +19,10 @@ intro.addEventListener("click", function() {
     view.innerHTML = "<h2>🎈 Intro</h2>저를 소개하겠습니다.";
 });
 welcome.addEventListener("click", function() {
-    view.innerHTML = "<h2>🎉 안녕하세요!</h2>저는 게임을 좋아하는 14살 소년 \"강동만두\"라고 합니다!<h3># 취미</h3>저의 취미는 🎮게임과 🎨프로그래밍입니다.<h3># 언어</h3>주로 Javascript을 사용하고 있습니다.<br>그밖에 Python, C, Java 등등을 할 수 있습니다.";
+    view.innerHTML = "<h2>🎉 안녕하세요!</h2>저는 게임을 좋아하는 14살 소년 \"강동민\"라고 합니다.<h3># 취미</h3>저의 취미는 🎮게임과 🎨프로그래밍입니다.<h3># 언어</h3>주로 Javascript을 사용하고 있습니다.<br>그밖에 Python, C, Java 등등을 할 수 있습니다.";
 });
 me.addEventListener("click", function() {
-    view.innerHTML = "<h2>😏 @Me</h2>현재 사용하고 있는 계정들입니다.<br><a href=\"https://www.facebook.com/ehdalsrkd/\">Facebook</a><br><a href=\"https://www.instagram.com/r.alsrkd/\">Instagram</a><br><a href=\"https://www.github.com/kangdongmandoo/\">Github</a>";
+    view.innerHTML = "<h2>😏 @Me</h2>현재 사용하고 있는 계정들입니다.<br>(no f4f)<br><a href=\"https://www.facebook.com/ehdalsrkd/\">Facebook</a><br><a href=\"https://www.instagram.com/r.alsrkd/\">Instagram</a><br><a href=\"https://www.github.com/kangdongmandoo/\">Github</a>";
 });
 projects.addEventListener("click", function() {
     view.innerHTML = "<h2>🎠 제가 만든 작품들입니다.</h2>많이 부족하지만 가벼운 마음으로 봐주시면 감사하겠습니다.";
