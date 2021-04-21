@@ -48,3 +48,18 @@ button:hover{
     transition: all ease 0.5s 0s;
     cursor:pointer;
 }
+.announce {
+    width: 70%;
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    transition: all ease 0.5s 0s;
+}
+.announce:hover {
+    background-color: #ececec69;
+    transition: all ease 0.5s 0s;
+    cursor:default;
+}
