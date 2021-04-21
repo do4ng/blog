@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+:root {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: large;
+}
+button {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}
+.view {
+    font-weight: bold;
+    font-size: smaller;
+}
+a{
+    text-decoration: none;
+    color: #649cdb;
+}

@@ -1,0 +1,50 @@
+button:focus { outline: none; }
+button { 
+    padding: 0;
+    border: none;
+    background: none; 
+    border-radius:5px;
+    min-height: 25px;
+    min-width: 150px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all ease 0.5s 0s;
+}
+button:hover{
+    background: #c9c9c9b4;
+    transition: all ease 0.5s 0s;
+}
+.container {
+    display: flex;
+    margin: 10px auto;
+    margin-top: 5%;
+}
+.list {
+    width: 6%;
+    margin-left: 15%;
+}
+.view {
+    margin: 0px 10%;
+    width: 50%;
+    flex: 1;
+}
+.list-1 {
+    margin-left: 15%;
+}
+.side {
+    margin-top: 10%;
+}
+.nav {
+    margin-top: 5px;
+    margin-left: 15%;
+    font-weight: bolder;
+    font-size:larger;
+    color: #535353;
+    transition: all ease 0.5s 0s;
+}
+.nav:hover {
+    color: #000000;
+    transition: all ease 0.5s 0s;
+    cursor:pointer;
+}
