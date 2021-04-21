@@ -13,7 +13,7 @@ const refer = document.getElementById("refer");
 const about = document.getElementById("about");
 
 announce.addEventListener("click", function() {
-    view.innerHTML = "<h2>📣 공지</h2><h3># 제목 오타</h3>r.ehdals을 e.ehdals으로 쓰는 실수가 있었습니다.<br>현재 수정 완료하였습니다.";
+    view.innerHTML = "<h2>📣 공지</h2><div class=\"announce\"># 제목 오타<br>r.ehdals을 e.ehdals으로 쓰는 실수가 있었습니다.<br>현재 수정 완료하였습니다.</div>";
 });
 intro.addEventListener("click", function() {
     view.innerHTML = "<h2>🎈 Intro</h2>저를 소개하겠습니다.";
