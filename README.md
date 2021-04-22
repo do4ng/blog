@@ -8,6 +8,5 @@
 + Playground 추가
 + 링크 색상 변경
 파란색 계열 -> 빨간색 계열
-+ Playground #001 추가
 + 상단 대사 변경 ( Hello, world! -> 's note )
 + 글 목록 자동 접기 
