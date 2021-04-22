@@ -27,7 +27,7 @@ const sds = document.getElementById("sd-s");
 const splays = document.getElementById("splay-s");
 
 announce.addEventListener("click", function() {
-    view.innerHTML = "<h2>📣 공지</h2>최근에 있었던 업데이트 및 알림을 쓰는 곳 입니다.<div style=\"margin-top: 5%;\"class=\"announce\"><div class=\"announce-title\"># 업데이트</div>+ 글 목록 접기/펼치기 추가<br>+ 배치 변경<br>( 공지, 글 목록 )<br>+ Playground 추가<br>+ 링크 색상 변경<br>파란색 계열 -> 빨간색 계열<span style=\"color: #919191;font-size: small;\">2021/04/22</span></div><div class=\"announce\"><div class=\"announce-title\"># 제목 오타</div>r.ehdals을 e.ehdals으로 쓰는 실수가 있었습니다.<br>현재 수정 완료하였습니다.<span style=\"color: #919191;font-size: small;\">2021/04/21</span></div>";
+    view.innerHTML = "<h2>📣 공지</h2>최근에 있었던 업데이트 및 알림을 쓰는 곳 입니다.<div style=\"margin-top: 5%;\"class=\"announce\"><div class=\"announce-title\"># update:210422</div><a href=\"https://github.com/kangdongmandoo/kangdongmandoo.github.io#update-210422\">자세히 보기</a>";
 });
 intro.addEventListener("click", function() {
     if ( si.classList.contains("hide") ) {
