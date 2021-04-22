@@ -13,5 +13,10 @@ button {
 }
 a{
     text-decoration: none;
-    color: #649cdb;
+    color: #db6464;
+    transition: all ease 0.5s 0s;
+}
+a:hover {
+    color: #ff0000;
+    transition: all ease 0.5s 0s;
 }
