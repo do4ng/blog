@@ -14,6 +14,7 @@ const about = document.getElementById("about");
 const ljs = document.getElementById("projects-lunarjs");
 const dplay = document.getElementById("dplay");
 const dplayabout = document.getElementById("dplay-about");
+const dplay001 = document.getElementById("dplay-1");
 // Hide
 const si = document.getElementById("si");
 const sp = document.getElementById("sp");
@@ -39,6 +40,7 @@ intro.addEventListener("click", function() {
 });
 welcome.addEventListener("click", function() {
     view.innerHTML = "<h2>🎉 안녕하세요!</h2>저는 게임을 좋아하는 14살 소년 \"강동민\"라고 합니다.<h3># 취미</h3>저의 취미는 🎮게임과 🎨프로그래밍입니다.<h3># 언어</h3>주로 Javascript을 사용하고 있습니다.<br>그밖에 Python, C, Java 등등을 할 수 있습니다.";
+
 });
 me.addEventListener("click", function() {
     view.innerHTML = "<h2>😏 @Me</h2>현재 사용하고 있는 계정들입니다.<br><br><a href=\"https://www.facebook.com/ehdalsrkd/\">Facebook</a> | <a href=\"https://www.instagram.com/r.alsrkd/\">Instagram</a> | <a href=\"https://www.github.com/kangdongmandoo/\">Github</a>";
@@ -96,4 +98,7 @@ dplay.addEventListener("click", function() {
 });
 dplayabout.addEventListener("click", function() {
     view.innerHTML = "<h2>🎢 About Playground</h2>테스트를 하거나 명령어를 잊어버리지 않도록 쓰는 노트입니다.";
+});
+dplay001.addEventListener("click", function() {
+    view.innerHTML = "<h2># 001 - 부드러운 변경</h2><h3># Result</h3><span class=\"p001\">마우스를 위에 놓으세요.</span><h3># Css</h3>transition: all ease {초}s 0s;";
 });
