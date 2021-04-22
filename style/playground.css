@@ -1,0 +1,8 @@
+.p001 {
+    color: #86b7ff;
+    transition: all ease 0.5s 0s;
+}
+.p001:hover {
+    color: #f7a0b3;
+    transition: all ease 0.5s 0s;
+}
