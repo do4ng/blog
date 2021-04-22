@@ -6,43 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./style/global.css">
     <link rel="stylesheet" type="text/css" href="./style/style.css">
-    <meta name="description" content="가끔  내 세상">
+    <meta name="description" content="가끔 끄적이는 노트장입니다.">
     <title>@r.ehdals</title>
 </head>
 <body>
     <div class="nav">
         @r.ehdals
+        <span class="w"> | Hello, World!</span>
     </div>
     <div class="container">
         <div class="list">
             <button id="announce">📣 Announce</button>
             <div class="side">
-                <button id="intro">🎈 Intro</button>
-                <div class="list-1">
+                <button id="intro">🎈 Intro <span id="si-s" class="hs">+</span></button>
+                <div id="si" class="list-1 hide">
                     <button id="welcome">🎉 Welcome</button>
                     <button id="me">😏 @Me</button>
                 </div>
             </div>
             <div class="side">
-                <button id="projects">🎠 Projects</button>
-                <div class="list-1">
+                <button id="projects">🎠 Project <span id="sp-s" class="hs">+</span></button>
+                <div id="sp"class="list-1 hide">
                     <button id="projects-theme">🥇 Theme</button>
                     <button id="projects-cards">🥈 Cards</button>
+                    <button id="projects-lunarjs">🌙 Lunar.js</button>
                 </div>
             </div>
             <div class="side">
-                <button id="db">🤖 Discord Bots</button>
-                <div class="list-1">
+                <button id="db">🤖 Discord Bots <span id="sd-s" class="hs">+</span></button>
+                <div id="sd"class="list-1 hide">
                     <button id="db-sc">🏹 SandCastle</button>
                     <button id="db-sb">🔨 SandooBot</button>
+                </div>
+            </div>
+            <div class="side">
+                <button id="dplay">🎢 Playground <span id="splay-s" class="hs">+</span></button>
+                <div id="splay"class="list-1 hide">
+                    <button id="dplay-about"># About</button>
                 </div>
             </div>
             <button id="refer">📖 Reference</button>
             <button id="about">📕 About</button>
         </div>
         <div class="view" id="view">
-            <h1>🦕 r.ehdals</h1>
-            좌측 버튼을 눌러주세요.
+            <h1 style="cursor:pointer;" class="rehdals">@r.ehdals <span> | 안녕하세요.</span></h1>
+            가끔 끄적이는 저의 노트입니다.
+            <div style="color: #bdbdbd;">
+                좌측 버튼을 눌러주세요.
+            </div>
         </div>
     </div>
     <script src="./script/view.js"></script>
