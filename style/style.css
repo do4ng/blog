@@ -65,23 +65,23 @@ button:hover{
     padding-right: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
-    transition: all ease 0.5s 0s;
-    margin-bottom: 2%;
+    transition: all ease 0.4s 0s;
+    margin-top: 2%;
 }
 .announce:hover {
     background-color: #e4e3e369;
-    transition: all ease 0.5s 0s;
+    transition: all ease 0.4s 0s;
     cursor:default;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 .announce-title {
     font-size: larger;
     color: #5a5a5a;
-    transition: all ease 0.5s 0s;
-}.announce-title:hover {
+    transition: all ease 0.4s 0s;
+}.announce:hover .announce-title {
     font-size: larger;
     color: #000000;
-    transition: all ease 0.5s 0s;
+    transition: all ease 0.4s 0s;
 }
 .hide {
     display: none;
@@ -117,4 +117,23 @@ button:hover{
 .vhide {
     color: white;
     transition: all ease 0.5s 0s; 
+}
+
+.bg-black {
+    background-color:#cccccc;
+    transition: all ease 0.5s 0s; 
+}
+.bg-white {
+    background-color: #ffffff;
+    transition: all ease 0.5s 0s; 
+}
+.announce-detail {
+    color: #f5f5f59a;
+    font-size: smaller;
+    transition: all ease 0.4s 0s; 
+}
+.announce:hover .announce-detail {
+    font-size: smaller;
+    transition: all ease 0.4s 0s; 
+    color: #d6d1d1;
 }
