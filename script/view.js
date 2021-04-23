@@ -58,8 +58,9 @@ announce.addEventListener("click", function() {
     page = "announce"
     subpage = "default"
     view.innerHTML = "<h2>📣 공지</h2>최근에 있었던 업데이트 및 알림을 쓰는 곳 입니다.\
-    <div style=\"margin-top: 5%;\"class=\"announce\"><div class=\"announce-title\"># update:210423</div><a style=\"color: #86b7ff; font-size: small;\" href=\"https://github.com/kangdongmandoo/kangdongmandoo.github.io#update-210423\">자세히 보기</a></div>\
-    <div style=\"margin-top: 5%;\"class=\"announce\"><div class=\"announce-title\"># update:210422</div><a style=\"color: #86b7ff; font-size: small;\" href=\"https://github.com/kangdongmandoo/kangdongmandoo.github.io#update-210422\">자세히 보기</a></div>\
+    <div style=\"margin-top: 2%;\"class=\"announce\"><div class=\"announce-title\"># 의견 <span class=\"announce-detail\">2021/04/23</span></div>최근 업데이트 어떠셨나요?</div> \
+    <div style=\"margin-top: 2%;\"class=\"announce\"><div class=\"announce-title\"># update:210423 <span class=\"announce-detail\">2021/04/23</span></div><a style=\"color: #86b7ff; font-size: small;\" href=\"https://github.com/kangdongmandoo/kangdongmandoo.github.io#update-210423\">자세히 보기</a></div>\
+    <div style=\"margin-top: 2%;\"class=\"announce\"><div class=\"announce-title\"># update:210422 <span class=\"announce-detail\">2021/04/22</span></div><a style=\"color: #86b7ff; font-size: small;\" href=\"https://github.com/kangdongmandoo/kangdongmandoo.github.io#update-210422\">자세히 보기</a></div>\
     ";
 });
 intro.addEventListener("click", function() {
@@ -132,7 +133,7 @@ refer.addEventListener("click", function() {
 about.addEventListener("click", function() {
     page="about"
     subpage = "default"
-    view.innerHTML = "<h2>📕 정보</h2>저의 노트가 될 곳 입니다.<br>마지막 수정일 : 2021 / 4 / 22<br><span style=\"color: #919191;font-size: small;\">Copyright (c) 2021 r.ehdals</span>";
+    view.innerHTML = "<h2>📕 정보</h2>저의 노트가 될 곳 입니다.<br>개설일 : 2021 / 4 / 21<br><span style=\"color: #919191;font-size: small;\">Copyright (c) 2021 r.ehdals</span>";
 });
 ljs.addEventListener("click", function() {
     page="project"
