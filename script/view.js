@@ -57,7 +57,10 @@ setInterval(function() {
 announce.addEventListener("click", function() {
     page = "announce"
     subpage = "default"
-    view.innerHTML = "<h2>📣 공지</h2>최근에 있었던 업데이트 및 알림을 쓰는 곳 입니다.<div style=\"margin-top: 5%;\"class=\"announce\"><div class=\"announce-title\"># update:210422</div><a href=\"https://github.com/kangdongmandoo/kangdongmandoo.github.io#update-210422\">자세히 보기</a>";
+    view.innerHTML = "<h2>📣 공지</h2>최근에 있었던 업데이트 및 알림을 쓰는 곳 입니다.\
+    <div style=\"margin-top: 5%;\"class=\"announce\"><div class=\"announce-title\"># update:210423</div><a style=\"color: #86b7ff; font-size: small;\" href=\"https://github.com/kangdongmandoo/kangdongmandoo.github.io#update-210423\">자세히 보기</a></div>\
+    <div style=\"margin-top: 5%;\"class=\"announce\"><div class=\"announce-title\"># update:210422</div><a style=\"color: #86b7ff; font-size: small;\" href=\"https://github.com/kangdongmandoo/kangdongmandoo.github.io#update-210422\">자세히 보기</a></div>\
+    ";
 });
 intro.addEventListener("click", function() {
     subpage = "intro"
