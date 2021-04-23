@@ -72,10 +72,11 @@ button:hover{
     background-color: #e4e3e369;
     transition: all ease 0.5s 0s;
     cursor:default;
+    margin-left: 15px;
 }
 .announce-title {
     font-size: larger;
-    color: #3f3f3f;
+    color: #5a5a5a;
     transition: all ease 0.5s 0s;
 }.announce-title:hover {
     font-size: larger;
@@ -107,5 +108,13 @@ button:hover{
 }
 .rehdals:hover span { 
     color: #4e4e4e;
+    transition: all ease 0.5s 0s; 
+}
+.vshow {
+    color:black;
+    transition: all ease 0.5s 0s; 
+}
+.vhide {
+    color: white;
     transition: all ease 0.5s 0s; 
 }
