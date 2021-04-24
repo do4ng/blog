@@ -137,3 +137,12 @@ button:hover{
     transition: all ease 0.4s 0s; 
     color: #d6d1d1;
 }
+.producer {
+    color: #a3a3a3;
+    font-size: small;
+    transition: all ease 0.4s 0s; 
+}
+.producer-nick {
+    cursor: default;
+    color: #7197ff;
+}

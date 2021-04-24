@@ -14,7 +14,9 @@ const about = document.getElementById("about");
 const ljs = document.getElementById("projects-lunarjs");
 const dplay = document.getElementById("dplay");
 const dplayabout = document.getElementById("dplay-about");
+// Playground
 const dplay001 = document.getElementById("dplay-1");
+const dplay002 = document.getElementById("dplay-2");
 // Hide
 const si = document.getElementById("si");
 const sp = document.getElementById("sp");
@@ -58,6 +60,7 @@ announce.addEventListener("click", function() {
     page = "announce"
     subpage = "default"
     view.innerHTML = "<h2>📣 공지</h2>최근에 있었던 업데이트 및 알림을 쓰는 곳 입니다.\
+    <div style=\"margin-top: 2%;\"class=\"announce\"><div class=\"announce-title\"># update:210424 <span class=\"announce-detail\">2021/04/24</span></div><a style=\"color: #86b7ff; font-size: small;\" href=\"https://github.com/kangdongmandoo/kangdongmandoo.github.io#update-210424\">자세히 보기</a></div>\
     <div style=\"margin-top: 2%;\"class=\"announce\"><div class=\"announce-title\"># 의견 <span class=\"announce-detail\">2021/04/23</span></div>최근 업데이트 어떠셨나요?</div> \
     <div style=\"margin-top: 2%;\"class=\"announce\"><div class=\"announce-title\"># update:210423 <span class=\"announce-detail\">2021/04/23</span></div><a style=\"color: #86b7ff; font-size: small;\" href=\"https://github.com/kangdongmandoo/kangdongmandoo.github.io#update-210423\">자세히 보기</a></div>\
     <div style=\"margin-top: 2%;\"class=\"announce\"><div class=\"announce-title\"># update:210422 <span class=\"announce-detail\">2021/04/22</span></div><a style=\"color: #86b7ff; font-size: small;\" href=\"https://github.com/kangdongmandoo/kangdongmandoo.github.io#update-210422\">자세히 보기</a></div>\
@@ -133,7 +136,10 @@ refer.addEventListener("click", function() {
 about.addEventListener("click", function() {
     page="about"
     subpage = "default"
-    view.innerHTML = "<h2>📕 정보</h2>저의 노트가 될 곳 입니다.<br>개설일 : 2021 / 4 / 21<br><span style=\"color: #919191;font-size: small;\">Copyright (c) 2021 r.ehdals</span>";
+    view.innerHTML = "<h2>📕 정보</h2>저의 노트가 될 곳 입니다.<br>개설일 : 2021 / 4 / 21\
+    <h3># Producer</h3>\
+    <span class=\"producer-nick\">@강동민</span> <span class=\"producer\">Developer</span><br>\
+    <br><span style=\"color: #919191;font-size: small;\">Copyright (c) 2021 r.ehdals</span>";
 });
 ljs.addEventListener("click", function() {
     page="project"
@@ -162,4 +168,10 @@ dplay001.addEventListener("click", function() {
     page="play"
     subpage = "default"
     view.innerHTML = "<h2># 001 - 부드러운 변경</h2><h3># Result</h3><span class=\"p001\">마우스를 위에 놓으세요.</span><h3># Css</h3>transition: all ease {초}s 0s;";
+});
+dplay002.addEventListener("click", function() {
+    page="play"
+    subpage = "default"
+    view.innerHTML = "<h2># 002 - Stylesheet</h2><span id=\"result\"></span>";
+    document.getElementById("result").innerText = "<link rel=\"stylesheet\" type=\"text/css\" href={Dir}>"
 });

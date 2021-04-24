@@ -1,6 +1,8 @@
 # kangdongmandoo.github.io
 가끔 끄적이는 노트  
 [바로가기](https://ehdals.netlify.app/)
+## Update 210424
++ 버그 수정
 ## Update 210423
 + 공지 디자인 변경
 ## Update 210422
