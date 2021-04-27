@@ -60,6 +60,7 @@ announce.addEventListener("click", function() {
     page = "announce"
     subpage = "default"
     view.innerHTML = "<h2>📣 공지</h2>최근에 있었던 업데이트 및 알림을 쓰는 곳 입니다.\
+    <div style=\"margin-top: 2%;\"class=\"announce\"><div class=\"announce-title\"># Remake <span class=\"announce-detail\">2021/04/27</span></div><a style=\"color: #86b7ff; font-size: small;\" href=\"https://github.com/kangdongmandoo/kangdongmandoo.github.io#remake\">자세히 보기</a></div>\
     <div style=\"margin-top: 2%;\"class=\"announce\"><div class=\"announce-title\"># update:210424 <span class=\"announce-detail\">2021/04/24</span></div><a style=\"color: #86b7ff; font-size: small;\" href=\"https://github.com/kangdongmandoo/kangdongmandoo.github.io#update-210424\">자세히 보기</a></div>\
     <div style=\"margin-top: 2%;\"class=\"announce\"><div class=\"announce-title\"># 의견 <span class=\"announce-detail\">2021/04/23</span></div>최근 업데이트 어떠셨나요?</div> \
     <div style=\"margin-top: 2%;\"class=\"announce\"><div class=\"announce-title\"># update:210423 <span class=\"announce-detail\">2021/04/23</span></div><a style=\"color: #86b7ff; font-size: small;\" href=\"https://github.com/kangdongmandoo/kangdongmandoo.github.io#update-210423\">자세히 보기</a></div>\
