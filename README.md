@@ -1,7 +1,8 @@
 # kangdongmandoo.github.io
-가끔 끄적이는 노트  
-react나 svelte가 있는데 그냥 바닐라js + html 쓴걸 매우 후회 중  
+가끔 끄적이는 노트   
 [바로가기](https://ehdals.netlify.app/)<br><br>
+## Homepage
+[rehdals.netlify.app](https://rehdals.netlify.app)
 ## Remake
 현재 프레임워크를 이용하여 다시 제작하고 있습니다.
 <br><br>
