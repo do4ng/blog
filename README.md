@@ -1,7 +1,8 @@
 # kangdongmandoo.github.io
 가끔 끄적이는 노트   
 [바로가기](https://ehdals.netlify.app/)<br><br>
-## Homepage
+## 페이지 변경
+아무래도 바닐라js로 구현하는데 한계가 있어 React를 사용해 새로 제작하였습니다,  
 [rehdals.netlify.app](https://rehdals.netlify.app)
 ## Remake
 현재 프레임워크를 이용하여 다시 제작하고 있습니다.
